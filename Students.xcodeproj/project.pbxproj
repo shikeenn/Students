@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A2232A15328E85005EAE88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A2232915328E85005EAE88 /* UIKit.framework */; };
+		B4A2232C15328E85005EAE88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A2232B15328E85005EAE88 /* Foundation.framework */; };
+		B4A2232E15328E85005EAE88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A2232D15328E85005EAE88 /* CoreGraphics.framework */; };
+		B4A2233415328E85005EAE88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4A2233215328E85005EAE88 /* InfoPlist.strings */; };
+		B4A2233615328E85005EAE88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2233515328E85005EAE88 /* main.m */; };
+		B4A2233A15328E85005EAE88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2233915328E85005EAE88 /* AppDelegate.m */; };
+		B4A2234C15328EB2005EAE88 /* studentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2234A15328EB2005EAE88 /* studentViewController.m */; };
+		B4A2234D15328EB2005EAE88 /* studentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A2234B15328EB2005EAE88 /* studentViewController.xib */; };
+		B4A2235315329BCB005EAE88 /* students.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A2235215329BCB005EAE88 /* students.plist */; };
+		B4A2235715329F53005EAE88 /* addStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2235515329F53005EAE88 /* addStudentViewController.m */; };
+		B4A2235815329F53005EAE88 /* addStudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A2235615329F53005EAE88 /* addStudentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4A2232515328E85005EAE88 /* Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Students.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A2232915328E85005EAE88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4A2232B15328E85005EAE88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4A2232D15328E85005EAE88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4A2233115328E85005EAE88 /* Students-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Students-Info.plist"; sourceTree = "<group>"; };
+		B4A2233315328E85005EAE88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4A2233515328E85005EAE88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A2233715328E85005EAE88 /* Students-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Students-Prefix.pch"; sourceTree = "<group>"; };
+		B4A2233815328E85005EAE88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4A2233915328E85005EAE88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4A2234915328EB2005EAE88 /* studentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = studentViewController.h; path = ../studentViewController.h; sourceTree = "<group>"; };
+		B4A2234A15328EB2005EAE88 /* studentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = studentViewController.m; path = ../studentViewController.m; sourceTree = "<group>"; };
+		B4A2234B15328EB2005EAE88 /* studentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = studentViewController.xib; path = ../studentViewController.xib; sourceTree = "<group>"; };
+		B4A2235215329BCB005EAE88 /* students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = students.plist; sourceTree = "<group>"; };
+		B4A2235415329F52005EAE88 /* addStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addStudentViewController.h; sourceTree = "<group>"; };
+		B4A2235515329F53005EAE88 /* addStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addStudentViewController.m; sourceTree = "<group>"; };
+		B4A2235615329F53005EAE88 /* addStudentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addStudentViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A2232215328E85005EAE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A2232A15328E85005EAE88 /* UIKit.framework in Frameworks */,
+				B4A2232C15328E85005EAE88 /* Foundation.framework in Frameworks */,
+				B4A2232E15328E85005EAE88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A2231A15328E85005EAE88 = {
+			isa = PBXGroup;
+			children = (
+				B4A2232F15328E85005EAE88 /* Students */,
+				B4A2232815328E85005EAE88 /* Frameworks */,
+				B4A2232615328E85005EAE88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A2232615328E85005EAE88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2232515328E85005EAE88 /* Students.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A2232815328E85005EAE88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2232915328E85005EAE88 /* UIKit.framework */,
+				B4A2232B15328E85005EAE88 /* Foundation.framework */,
+				B4A2232D15328E85005EAE88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A2232F15328E85005EAE88 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2233815328E85005EAE88 /* AppDelegate.h */,
+				B4A2233915328E85005EAE88 /* AppDelegate.m */,
+				B4A2233015328E85005EAE88 /* Supporting Files */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		B4A2233015328E85005EAE88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2234915328EB2005EAE88 /* studentViewController.h */,
+				B4A2234A15328EB2005EAE88 /* studentViewController.m */,
+				B4A2234B15328EB2005EAE88 /* studentViewController.xib */,
+				B4A2235415329F52005EAE88 /* addStudentViewController.h */,
+				B4A2235515329F53005EAE88 /* addStudentViewController.m */,
+				B4A2235615329F53005EAE88 /* addStudentViewController.xib */,
+				B4A2235215329BCB005EAE88 /* students.plist */,
+				B4A2233115328E85005EAE88 /* Students-Info.plist */,
+				B4A2233215328E85005EAE88 /* InfoPlist.strings */,
+				B4A2233515328E85005EAE88 /* main.m */,
+				B4A2233715328E85005EAE88 /* Students-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A2232415328E85005EAE88 /* Students */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A2234615328E85005EAE88 /* Build configuration list for PBXNativeTarget "Students" */;
+			buildPhases = (
+				B4A2232115328E85005EAE88 /* Sources */,
+				B4A2232215328E85005EAE88 /* Frameworks */,
+				B4A2232315328E85005EAE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Students;
+			productName = Students;
+			productReference = B4A2232515328E85005EAE88 /* Students.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A2231C15328E85005EAE88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "TMR&D";
+			};
+			buildConfigurationList = B4A2231F15328E85005EAE88 /* Build configuration list for PBXProject "Students" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4A2231A15328E85005EAE88;
+			productRefGroup = B4A2232615328E85005EAE88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A2232415328E85005EAE88 /* Students */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A2232315328E85005EAE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A2233415328E85005EAE88 /* InfoPlist.strings in Resources */,
+				B4A2234D15328EB2005EAE88 /* studentViewController.xib in Resources */,
+				B4A2235315329BCB005EAE88 /* students.plist in Resources */,
+				B4A2235815329F53005EAE88 /* addStudentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A2232115328E85005EAE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A2233615328E85005EAE88 /* main.m in Sources */,
+				B4A2233A15328E85005EAE88 /* AppDelegate.m in Sources */,
+				B4A2234C15328EB2005EAE88 /* studentViewController.m in Sources */,
+				B4A2235715329F53005EAE88 /* addStudentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4A2233215328E85005EAE88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A2233315328E85005EAE88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A2234415328E85005EAE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A2234515328E85005EAE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A2234715328E85005EAE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Students/Students-Prefix.pch";
+				INFOPLIST_FILE = "Students/Students-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4A2234815328E85005EAE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Students/Students-Prefix.pch";
+				INFOPLIST_FILE = "Students/Students-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A2231F15328E85005EAE88 /* Build configuration list for PBXProject "Students" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A2234415328E85005EAE88 /* Debug */,
+				B4A2234515328E85005EAE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A2234615328E85005EAE88 /* Build configuration list for PBXNativeTarget "Students" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A2234715328E85005EAE88 /* Debug */,
+				B4A2234815328E85005EAE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A2231C15328E85005EAE88 /* Project object */;
+}
